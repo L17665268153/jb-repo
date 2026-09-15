@@ -6,7 +6,7 @@
 """
 import os, sys, json, base64, hashlib, urllib.request, urllib.error
 
-OWNER = "L17665268153"
+OWNER = "TLzypjy"
 REPO = "jb-repo"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 API = "https://api.github.com"
