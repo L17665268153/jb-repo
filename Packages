@@ -87,6 +87,24 @@ MD5sum: 472fb1de915e8e650c697c9d9bde0cad
 SHA1: be1597281882556e69dc23b4be35a8c2fb558593
 SHA256: 0a56e39423fbe79d21d18b086f4bf12cc1a5098a3f811171283d4408c9d0020b
 
+Package: com.Axs.kongzhidiy
+Name: 冰蓝控制中心2.3.3-end（免授权）
+Section: 控制中心
+Maintainer: binglan
+Author: binglan
+Description: 这是一个简单的控制中心美化插件。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.3.3-end
+Installed-Size: 3028
+Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
+Filename: debs/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb
+Size: 674340
+MD5sum: e7807c63d35c8436fd53168ceb8558bd
+SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
+SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
+
 Package: com.axs.screenrecording
 Name: A狗截图套壳（免授权）
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
@@ -133,6 +151,23 @@ Size: 122504
 MD5sum: 8430db964565af7c51849d654d7f10d9
 SHA1: b6e253f67a93a7d5207b9749e8225fbab3490132
 SHA256: fabded6d19c655b9a9c4ceeba10cfbe20363b393f03f1036775bfc898a7b7dbb
+
+Package: com.binglan.kongzhidiy
+Name: 冰蓝控制中心2.3.6-end（免授权）
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Installed-Size: 8024
+Filename: debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
+Size: 3740160
+MD5sum: 580439c34aa5d0d882f83f7ed1c094aa
+SHA1: b4f925ae1798406613e34308b09e11d92a30d9cc
+SHA256: d0074244b4bca48223959e56b227b64a7890c2c9c8ed3cf61246ae93a1bf839d
 
 Package: com.charlieleung.liquidify
 Name: 88液态玻璃插件 1.3.7-4
