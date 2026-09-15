@@ -1,3 +1,21 @@
+Package: byg.iosios.net.mango
+Version: 1.0-Beta4-2
+Section: 系统增强
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 3548
+Name: 芒果分屏1.0-Beta4-2（免授权）
+Author: go
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+Description: 一款非常不错的分屏插件，需要授权才能使用，但是免费功能可以液态玻璃 视频壁纸 双击锁屏 音量键锁屏等等，还是可以的，大家可以自行看看是否是自己需要的，觉得不错的可以支持一下！
+Filename: debs/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb
+Size: 904656
+MD5sum: 94ae938e937f9d02553556f80fedef82
+SHA1: 26299ca72a5db8449c7c100a62fcc88af2316b46
+SHA256: 713e89bbb21c913a8e70fc2905ef1be79c61eb161f9fc5de2d519bbe795b779e
+
 Package: cn.octoforce.squidextender.roothide
 Name: 乌贼键盘隐根（免授权）
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
@@ -99,6 +117,22 @@ Size: 2222818
 MD5sum: b7163d8f0553624fc927b19c0908813b
 SHA1: 8495f32ced31b0bd18d8d86d5a51dc3c63b61f70
 SHA256: 8f438ff0cac4b61c93488ee6164ea6d5bf11b6cc7401bc056f6c165867fa877e
+
+Package: com.go.mango
+Name: 芒果分屏1.0-Beta7-6（免授权）
+Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0-Beta7-6
+Installed-Size: 3284
+Filename: debs/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb
+Size: 845280
+MD5sum: 5faa5814a11e5740dc7fceaf25255302
+SHA1: 4bd1f17500d305e7e3876479cc580084b9a15cac
+SHA256: bba93725b26ed75f6f88c9bc45d1cf6b16c9c7bbe836b85cd2ee100c9bae3ff6
 
 Package: com.qimiao.WCRefine
 Name: WCRefine内部2.1-5beta1（免授权）
