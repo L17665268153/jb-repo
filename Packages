@@ -357,3 +357,19 @@ Size: 64144
 MD5sum: 9bc84a17d0fb4355909e1069f0904ebf
 SHA1: 7ae06f6406c0ee05da7e4b6f3a5bf421d93e0df4
 SHA256: 65b479e9b2caee1c75facd56bac95eea29905c0eaafdf567ae08724b4ea108ee
+
+Package: com.ylr.wcfloatsplit
+Name: WeChatOrbit（免授权）
+Description: WeChatOrbit
+Maintainer: ylr
+Author: ylr
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 3.0-5
+Installed-Size: 6236
+Filename: debs/com.ylr.wcfloatsplit_3.0-5_iphoneos-arm64.deb
+Size: 2346236
+MD5sum: 93ceb5e50b0438e6bb304d6168ed0820
+SHA1: fd1812eb4079fc29ef90373316d5e259bfed38b1
+SHA256: 7a1e94f7f9b6915aedbb12472f6b2ba149f32d3cc3d9ee13e047afcd8877b728
