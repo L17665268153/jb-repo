@@ -87,6 +87,53 @@ MD5sum: 472fb1de915e8e650c697c9d9bde0cad
 SHA1: be1597281882556e69dc23b4be35a8c2fb558593
 SHA256: 0a56e39423fbe79d21d18b086f4bf12cc1a5098a3f811171283d4408c9d0020b
 
+Package: com.axs.screenrecording
+Name: A狗截图套壳（免授权）
+Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://axs66.github.io/pro/icon/screenrecording.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
+Architecture: iphoneos-arm64
+Version: 5.2.0-35
+Installed-Size: 508
+Filename: debs/com.axs.screenrecording_5.2.0-35_iphoneos-arm64.deb
+Size: 46360
+MD5sum: 7b8b7f419b32828cd16942e357683d37
+SHA1: e14f48184bc5700855959cca3eefc34b9c13291b
+SHA256: 72341c7de95b5cd792fc83c7d4342f4db025dca719bf4b51a90724a608d7fb23
+
+Package: com.axs.switchicon
+Name: A狗液态开关（免授权）
+Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
+ * 一、纯代码开关组
+ * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
+ * 2. 静态组：日月开关、水滴开关、立体开关、温度开关、星月开关，覆盖多种精致静态样式；
+ * 3. 液态开关：复刻 iOS 26 风格，并支持开启状态颜色自定义；
+ * 4. 日月开关：支持太阳、云朵、月亮、星星颜色自定义，一个开关也能千变万化。
+ * 二、素材开关组
+ * 1. 素材开关：在指定路径放置 on.png/off.png 开关素材；
+ * 2. 支持创建多套，在插件面板自由切换。
+ * 三、温馨提示
+ * 1. 早买早享受，后续免费更新；
+ * 2. 后续增加新样式，新用户可能面临涨价。
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
+Architecture: iphoneos-arm64
+Version: 5.2.0-131
+Installed-Size: 836
+Filename: debs/com.axs.switchicon_5.2.0-131_iphoneos-arm64.deb
+Size: 122504
+MD5sum: 8430db964565af7c51849d654d7f10d9
+SHA1: b6e253f67a93a7d5207b9749e8225fbab3490132
+SHA256: fabded6d19c655b9a9c4ceeba10cfbe20363b393f03f1036775bfc898a7b7dbb
+
 Package: com.charlieleung.liquidify
 Name: 88液态玻璃插件 1.3.7-4
 Description: 液态玻璃
