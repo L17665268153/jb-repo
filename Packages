@@ -326,6 +326,21 @@ MD5sum: a14733acccd337f625ca92a0b665fa43
 SHA1: 22787751cec489c513785a7e0983f9afe85f1246
 SHA256: 0d4cc7bbf5cbeabc153ba005d0585da37c5e110bf2ca60d7e5236cf6b02aed68
 
+Package: com.wcneo.free
+Name: WeChatNeo（免授权）
+Version: 1.0.8-3
+Architecture: iphoneos-arm64
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Description: WeChatNeo 微信美化全家桶（免授权）。主面板/截图工具/手势截图/头像自定义/主题色等。内置授权服务器与更新通道，仅自用。
+Author: personal
+Maintainer: personal
+Section: Tweaks
+Filename: debs/com.wcneo.free_1.0.8-3_iphoneos-arm64.deb
+Size: 2906666
+MD5sum: a1092b642c03e2faa7bd1da5ba3f12d4
+SHA1: 65c36055d6a7076cd22a8d065935aa4758b0b073
+SHA256: 9b24b012947e8f7a5d3a4677783b7fb38ffc476a100acbc0b4db6e2ca5efd2d8
+
 Package: com.wkk.keyboardx
 Name: keyboardX（免授权）
 Description: 键盘调整。
