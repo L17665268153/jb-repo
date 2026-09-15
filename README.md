@@ -18,7 +18,7 @@
 Sileo / Zebra → 底部「源 / Sources」→ 右上角「+」→ 输入：
 
 ```
-https://l17665268153.github.io/jb-repo/
+https://tlzypjy.github.io/jb-repo/
 ```
 
 公网地址全球可访问：手机用流量、在外面都能装，电脑不用开机。
