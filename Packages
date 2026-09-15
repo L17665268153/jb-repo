@@ -310,3 +310,20 @@ Size: 19588322
 MD5sum: a14733acccd337f625ca92a0b665fa43
 SHA1: 22787751cec489c513785a7e0983f9afe85f1246
 SHA256: 0d4cc7bbf5cbeabc153ba005d0585da37c5e110bf2ca60d7e5236cf6b02aed68
+
+Package: com.wkk.keyboardx
+Name: keyboardX（免授权）
+Description: 键盘调整。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0-6
+Installed-Size: 516
+Filename: debs/com.wkk.keyboardx_1.0-6_iphoneos-arm64.deb
+Size: 64144
+MD5sum: 9bc84a17d0fb4355909e1069f0904ebf
+SHA1: 7ae06f6406c0ee05da7e4b6f3a5bf421d93e0df4
+SHA256: 65b479e9b2caee1c75facd56bac95eea29905c0eaafdf567ae08724b4ea108ee
