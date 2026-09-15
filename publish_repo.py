@@ -5,6 +5,7 @@
 令牌来源（按优先级）：环境变量 GH_TOKEN > C:\\Users\\Administrator\\jb-repo.token > 仓库内 .token
 """
 import os, sys, json, base64, hashlib, urllib.request, urllib.error
+from urllib.parse import quote
 
 OWNER = "TLzypjy"
 REPO = "jb-repo"
@@ -77,7 +78,7 @@ for rel, (data, sha) in sorted(local.items()):
     payload = {"message": "update %s" % rel, "content": base64.b64encode(data).decode("ascii"), "branch": "main"}
     if rel in remote:
         payload["sha"] = remote[rel]
-    api("PUT", "/repos/%s/%s/contents/%s" % (OWNER, REPO, rel), payload)
+    api("PUT", "/repos/%s/%s/contents/%s" % (OWNER, REPO, quote(rel, safe="/")), payload)
     print("已更新: %s" % rel)
     changes += 1
 
