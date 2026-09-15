@@ -24,10 +24,10 @@ Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟�
 Author: siwenjiajia
 Maintainer: personal
 Filename: debs/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb
-Size: 3588160
-MD5sum: d72bd17b0b0ea80517ce1e7ac1ce3d9a
-SHA1: 92810453624d78a289fabf50e8087a998672b509
-SHA256: 1abbea7bc2a231ba08e4f269100cba3b5fb7bf55e658192812bafb4091c9fdd5
+Size: 3587944
+MD5sum: 9d518e85d385ad8e66efc29caf787b4e
+SHA1: 5ef449aa466d8f51708e55794e0a556394da9437
+SHA256: ae6185f2ec26225c3e5feb37fc13b4f98f8c79d2473e942850283b67f6db6aa1
 
 Package: com.siwenjiajia.tweak.free
 Name: 抖音优化（免授权）
