@@ -105,6 +105,29 @@ MD5sum: e7807c63d35c8436fd53168ceb8558bd
 SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
 SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
 
+Package: com.axs.ios16dao
+Name: A狗150动态岛（免授权）
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Maintainer: Axs
+Author: Axs
+Section: Axs-Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+Architecture: iphoneos-arm64
+Version: 5.2.0-244
+Installed-Size: 704
+Filename: debs/com.axs.ios16dao_5.2.0-244_iphoneos-arm64.deb
+Size: 123852
+MD5sum: 5bbd5e09d24a2f8e419aa8dc166f0587
+SHA1: f84ad4ed40c7273f6540bb00a261e9d356029a65
+SHA256: 2b4636506ae5d9ec866bec1606142fc114115c7ddba0c8e3e13b9ec33c98373f
+
 Package: com.axs.screenrecording
 Name: A狗截图套壳（免授权）
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
