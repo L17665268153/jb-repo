@@ -152,16 +152,16 @@ MD5sum: 8430db964565af7c51849d654d7f10d9
 SHA1: b6e253f67a93a7d5207b9749e8225fbab3490132
 SHA256: fabded6d19c655b9a9c4ceeba10cfbe20363b393f03f1036775bfc898a7b7dbb
 
-maintainer: 冰蓝
-section: Tweaks
+Maintainer: 冰蓝
+Section: Tweaks
 Name: 冰蓝灵动岛背景（免授权）
-version: 1.0.7
-package: com.binglan.dynamicfx
-depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-author: 冰蓝
-installed-size: 772
-description: 灵动岛背景？
-architecture: iphoneos-arm64
+Version: 1.0.7
+Package: com.binglan.dynamicfx
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Author: 冰蓝
+Installed-Size: 772
+Description: 灵动岛背景？
+Architecture: iphoneos-arm64
 Filename: debs/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb
 Size: 115768
 MD5sum: 1aa006b11bc6e253be2cf683a78af97e
@@ -256,7 +256,7 @@ Section: Tweaks
 Depends: firmware (>= 14.0), mobilesubstrate
 Priority: optional
 Author: 热心网友
-dev: 君临
+Dev: 君临
 Maintainer: 热心网友
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 Architecture: iphoneos-arm64
