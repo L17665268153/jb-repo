@@ -1,0 +1,15 @@
+Package: com.charlieleung.liquidify
+Name: 88液态玻璃插件 1.3.7-4
+Description: 液态玻璃
+Maintainer: 一刀
+Author: 一刀
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.3.7-4+dao88.1
+Installed-Size: 40597
+Filename: debs/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb
+Size: 10756096
+MD5sum: bf688c097ffa3e612ae428e99d97c363
+SHA1: 6f32227c1a6f12de276030a70fabf71be671d861
+SHA256: c6cb09ad3ffba6c424f78b0a0d4801c1bf71707937cd8aca27c351ef337b0b55
