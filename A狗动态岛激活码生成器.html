@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ios16dao Keygen</title>
+<style>
+  :root{
+    --bg:#0e1116; --card:#151a22; --line:#232a35;
+    --fg:#e8ecf2; --dim:#8a93a3; --acc:#5b8cff; --ok:#34d17b; --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:radial-gradient(1200px 600px at 80% -10%,#1b2a44 0%,var(--bg) 55%);color:var(--fg);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:48px 20px}
+  .wrap{width:100%;max-width:560px}
+  header{margin-bottom:28px}
+  h1{font-size:22px;font-weight:700;letter-spacing:.2px}
+  header p{color:var(--dim);font-size:13px;margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+  .card + .card{margin-top:16px}
+  label{display:block;color:var(--dim);font-size:12px;font-weight:600;margin-bottom:8px;letter-spacing:.4px}
+  .field{position:relative}
+  input{width:100%;background:#0b0e13;border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:13px 14px;font:600 19px/1.4 var(--mono);letter-spacing:2.5px;text-transform:uppercase;caret-color:var(--acc)}
+  input:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 3px rgba(91,140,255,.15)}
+  input::placeholder{color:#3a4250;letter-spacing:1px}
+  .err{color:#ff6b62;font-size:12px;margin-top:8px;min-height:16px}
+  .result{display:none;margin-top:2px}
+  .label-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+  .badge{display:inline-flex;align-items:center;gap:5px;color:var(--ok);background:rgba(52,209,123,.1);border:1px solid rgba(52,209,123,.25);font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px}
+  .code{background:#0b0e13;border:1px solid var(--line);border-radius:10px;padding:14px;font:600 21px/1.5 var(--mono);letter-spacing:1.5px;color:#9fd0ff;text-align:center;user-select:all;word-break:break-all}
+  .copy-btn{width:100%;margin-top:12px;background:var(--acc);border:0;border-radius:10px;color:#fff;font-size:14px;font-weight:600;padding:11px;cursor:pointer}
+  .copy-btn:active{transform:scale(.99)}
+  .sub-line{color:var(--dim);font-size:12px;margin-top:10px;text-align:center}
+  details{margin-top:4px}
+  summary{cursor:pointer;color:var(--dim);font-size:12px;list-style:none;display:flex;align-items:center;gap:4px;padding:8px 0}
+  summary::after{content:"▾";transition:.2s}
+  details[open] summary::after{transform:rotate(180deg)}
+  .kv{display:flex;justify-content:space-between;gap:16px;font-size:13px;padding:9px 0;border-bottom:1px dashed var(--line)}
+  .kv:last-child{border-bottom:0}
+  .kv .k{color:var(--dim);flex-shrink:0}
+  .kv .v{font-family:var(--mono);word-break:break-all;text-align:right}
+  footer{color:#3c4555;font-size:12px;margin-top:24px;text-align:center}
+  @media (max-width:420px){ body{padding:28px 14px} .code{font-size:18px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>ios16dao 激活码生成器</h1>
+    <p>输入 12 位设备码，一键生成可用的激活码</p>
+  </header>
+
+  <div class="card">
+    <label for="dev">设备码 (Device Code)</label>
+    <div class="field"><input id="dev" maxlength="12" placeholder="如 B67E31825990" spellcheck="false" autocomplete="off" autocapitalize="characters"></div>
+    <div class="err" id="err"></div>
+
+    <div class="result" id="result">
+      <div class="label-row"><span style="color:var(--dim);font-size:13px">激活码 · 填入插件弹窗</span><span class="badge" id="badge">✔ 校验通过</span></div>
+      <div class="code" id="code">-</div>
+      <button class="copy-btn" id="copy">复制激活码</button>
+      <div class="sub-line" id="alt">无横杠：<span id="code-raw"></span></div>
+    </div>
+
+    <details id="detail">
+      <summary>技术细节</summary>
+      <div class="kv"><span class="k">设备指纹 (HMAC 输入)</span><span class="v" id="dv">-</span></div>
+      <div class="kv"><span class="k">HMAC-SHA256 前 16 位</span><span class="v" id="h16">-</span></div>
+      <div class="kv"><span class="k">混淆后 (nibble ^ 7)</span><span class="v" id="mask">-</span></div>
+      <div class="kv"><span class="k">CRC8 校验尾</span><span class="v" id="crc">-</span></div>
+      <div class="kv"><span class="k">plist 存储值 (activation_code)</span><span class="v" id="b64">-</span></div>
+      <div class="kv"><span class="k">内置主密钥</span><span class="v">ios16dao_master_key_2025</span></div>
+    </details>
+  </div>
+
+  <footer>HMAC-SHA256(主密钥, 设备码) → nibble^7 混淆 → CRC8 → 18 位激活码</footer>
+</div>
+
+<script>
+"use strict";
+/* ===== SHA-256 ===== */
+const K=new Uint32Array([0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2]);
+const rotr=(x,n)=>(x>>>n)|(x<<(32-n));
+function sha256Bytes(msg){
+  const H=new Uint32Array([0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19]);
+  const bitLen=msg.length*8, total=((msg.length+8)>>6)<<6;
+  const M=new Uint8Array(total+64); M.set(msg,0); M[msg.length]=0x80;
+  const dv=new DataView(M.buffer); dv.setUint32(total+60,bitLen>>>0);
+  const w=new Uint32Array(64);
+  for(let off=0;off<M.length;off+=64){
+    for(let i=0;i<16;i++) w[i]=dv.getUint32(off+i*4);
+    for(let i=16;i<64;i++){
+      const s0=rotr(w[i-15],7)^rotr(w[i-15],18)^(w[i-15]>>>3);
+      const s1=rotr(w[i-2],17)^rotr(w[i-2],19)^(w[i-2]>>>10);
+      w[i]=(w[i-16]+s0+w[i-7]+s1)>>>0;
+    }
+    let a=H[0],b=H[1],c=H[2],d=H[3],e=H[4],f=H[5],g=H[6],h=H[7];
+    for(let i=0;i<64;i++){
+      const S1=rotr(e,6)^rotr(e,11)^rotr(e,25), ch=(e&f)^(~e&g);
+      const t1=(h+S1+ch+K[i]+w[i])>>>0;
+      const S0=rotr(a,2)^rotr(a,13)^rotr(a,22), maj=(a&b)^(a&c)^(b&c);
+      const t2=(S0+maj)>>>0;
+      h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;
+    }
+    H[0]=(H[0]+a)>>>0;H[1]=(H[1]+b)>>>0;H[2]=(H[2]+c)>>>0;H[3]=(H[3]+d)>>>0;
+    H[4]=(H[4]+e)>>>0;H[5]=(H[5]+f)>>>0;H[6]=(H[6]+g)>>>0;H[7]=(H[7]+h)>>>0;
+  }
+  const out=new Uint8Array(32);
+  for(let i=0;i<8;i++){out[i*4]=H[i]>>>24;out[i*4+1]=H[i]>>>16;out[i*4+2]=H[i]>>>8;out[i*4+3]=H[i];}
+  return out;
+}
+const toBytes=s=>Uint8Array.from(s,c=>c.charCodeAt(0)&0xff);
+function hmacSha256(key,msg){
+  let k=Array.from(key); if(k.length>64)k=Array.from(sha256Bytes(Uint8Array.from(k)));
+  const ipad=new Uint8Array(64),opad=new Uint8Array(64);
+  for(let i=0;i<64;i++){ipad[i]=0x36^(k[i]||0);opad[i]=0x5c^(k[i]||0)}
+  const inner=sha256Bytes(Uint8Array.from([...ipad,...msg]));
+  return sha256Bytes(Uint8Array.from([...opad,...inner]));
+}
+/* ===== 工具 ===== */
+const hex=b=>Array.from(b).map(x=>x.toString(16).padStart(2,"0").toUpperCase()).join("");
+const hexNib=n=>n.toString(16).toUpperCase();
+const crc8=s=>{let c=0xFF;for(let i=0;i<s.length;i++){c^=s.charCodeAt(i);for(let b=0;b<8;b++)c=(c&0x80)?(((c<<1)^0x31)&0xFF):((c<<1)&0xFF)}return c};
+const toB64=b=>{let s="";for(let i=0;i<b.length;i++)s+=String.fromCharCode(b[i]);return btoa(s)};
+const fmt=h=>h.slice(0,4)+"-"+h.slice(4,8)+"-"+h.slice(8,12)+"-"+h.slice(12,16)+"-"+h.slice(16);
+const MASTER_KEY="ios16dao_master_key_2025";
+
+function generate(dev){
+  dev=dev.toUpperCase();
+  const mac=hmacSha256(toBytes(MASTER_KEY),toBytes(dev));
+  const h16=hex(mac).slice(0,16);
+  let masked="";
+  for(const ch of h16) masked+=hexNib(parseInt(ch,16)^7);
+  const payload=masked+("00"+crc8(masked).toString(16).toUpperCase()).slice(-2);
+  const xor=Uint8Array.from(payload,(c,i)=>c.charCodeAt(0)^(i^0x59));
+  return {dev,h16,masked,crc:payload.slice(16),payload,code:fmt(payload),b64:toB64(xor)};
+}
+
+/* ===== UI ===== */
+const $=id=>document.getElementById(id);
+const devEl=$("dev"),errEl=$("err"),resEl=$("result");
+function update(){
+  const dev=devEl.value.trim();
+  if(!dev){resEl.style.display="none";errEl.textContent="";return}
+  if(!/^[0-9a-fA-F]{12}$/.test(dev)){
+    errEl.textContent="请输入 12 位十六进制设备码";
+    resEl.style.display="none";
+    return;
+  }
+  errEl.textContent="";
+  const r=generate(dev);
+  $("code").textContent=r.code;
+  $("code-raw").textContent=r.payload;
+  $("dv").textContent=r.dev;
+  $("h16").textContent=r.h16;
+  $("mask").textContent=r.masked;
+  $("crc").textContent=r.crc;
+  $("b64").textContent=r.b64;
+  resEl.style.display="block";
+}
+devEl.addEventListener("input",update);
+devEl.addEventListener("keydown",e=>{if(e.key==="Enter")update()});
+$("copy").onclick=async()=>{
+  const ok=await navigator.clipboard.writeText($("code").textContent).catch(()=>false);
+  if(!ok){const t=$("code").textContent;const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();}
+  const b=$("copy");b.textContent="已复制 ✓";setTimeout(()=>b.textContent="复制激活码",1200);
+};
+update();
+</script>
+</body>
+</html>
