@@ -85,6 +85,39 @@ MD5sum: bf688c097ffa3e612ae428e99d97c363
 SHA1: 6f32227c1a6f12de276030a70fabf71be671d861
 SHA256: c6cb09ad3ffba6c424f78b0a0d4801c1bf71707937cd8aca27c351ef337b0b55
 
+Package: com.duo.themelab.free
+Name: 000ThemeLab（免授权）
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Description: 000ThemeLab 主题实验室（免授权）。微信主题 + 锁屏/桌面美化。原插件含联网授权与设备信息上报，破解版仅自用。
+Author: personal
+Maintainer: personal
+Section: Tweaks
+Filename: debs/com.duo.themelab.free_1.0.0_iphoneos-arm64.deb
+Size: 2222818
+MD5sum: b7163d8f0553624fc927b19c0908813b
+SHA1: 8495f32ced31b0bd18d8d86d5a51dc3c63b61f70
+SHA256: 8f438ff0cac4b61c93488ee6164ea6d5bf11b6cc7401bc056f6c165867fa877e
+
+Package: com.qimiao.WCRefine
+Name: WCRefine内部2.1-5beta1（免授权）
+Version: 2.1-5beta1
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Priority: optional
+Author: 热心网友
+dev: 君临
+Maintainer: 热心网友
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Architecture: iphoneos-arm64
+Filename: debs/com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64.deb
+Size: 9312468
+MD5sum: 3613f66732971a1b9fc6f994c4eccbdd
+SHA1: 9020c2ca46df7d364f5906dfa4e71e4bf7ec305a
+SHA256: 67ae3563653f0f0a32ddf20b2859dcf2fa978a4aefcdedb8ced10d8d0c4b144c
+
 Package: com.siwenjiajia.tweak.comm
 Name: 抖音优化（免授权）
 Version: 28.35
