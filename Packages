@@ -128,6 +128,27 @@ MD5sum: e7807c63d35c8436fd53168ceb8558bd
 SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
 SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
 
+Package: com.axs.ios16dao.keygen
+Name: A狗动态岛激活码生成器
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活码，纯本地计算、不联网。
+ 
+ 使用说明：
+ 1. 打开 A狗动态岛 的授权弹窗，记下 12 位十六进制设备码（如 B67E31825990）；
+ 2. 用 Filza 进入 /var/jb/Library/，打开「A狗动态岛激活码生成器.html」；
+ 3. 输入设备码，自动生成 18 位激活码，点「复制激活码」；
+ 4. 把激活码粘贴回插件弹窗，完成激活；
+ 5. 也可在电脑浏览器打开 https://tlzypjy.github.io/jb-repo/A狗动态岛激活码生成器.html 生成，效果一样。
+Author: personal
+Maintainer: personal
+Section: 工具
+Filename: debs/com.axs.ios16dao.keygen_1.0.0_iphoneos-arm64.deb
+Size: 5498
+MD5sum: b7c8924634136934273758cb3de89244
+SHA1: 01da0f5d6eb379ac5e82cb29c89b359d82ff16d7
+SHA256: 200979191864fdf881ffb00c2322a41a1fa4e596c145e86b9d8ab0d48d292632
+
 Package: com.axs.ios16dao
 Name: A狗150动态岛（免授权）
 Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
