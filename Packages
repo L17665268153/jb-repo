@@ -296,6 +296,21 @@ MD5sum: da0bd4eddfd968f535cd11196664fc19
 SHA1: 6554e5c82e1c60052e5398d4d12290b346fecf99
 SHA256: d31f4c1cec0939a796fc9b2668122b5e2908922c7861455dc239013afe4c6643
 
+Package: com.tencent.themebox
+Name: 主题盒子（免授权）
+Version: 2.3.6
+Description: 微信主题盒子
+Maintainer: admin@25mao.com
+Author: Mao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Filename: debs/com.tencent.themebox_2.3.6_iphoneos-arm64.deb
+Size: 7803500
+MD5sum: 85f60f95faf48cdda2ce35dde8e866d3
+SHA1: 4e6aa3c46af7f8cceadb2fb172ff03188d5f1c95
+SHA256: 63d8fbaa9ddcf2c1c64565f3a238cff872a14511dc2c13a429cafee3c0b02762
+
 Package: com.wcglass.free
 Name: WCGlass（免授权）
 Version: 3.2.1
