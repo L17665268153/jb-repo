@@ -1,3 +1,21 @@
+Package: cn.octoforce.squidextender.roothide
+Name: 乌贼键盘隐根（免授权）
+Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+Architecture: iphoneos-arm64e
+Version: 3.7.4+offline.1
+Installed-Size: 10254
+Filename: debs/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb
+Size: 2306812
+MD5sum: 71251879f7a2bc995dbaaa860416207b
+SHA1: 12d039917fa7af491b0c1579be01fbd5bb417220
+SHA256: 39518eeff0abf96505a097ddef1d0b3763327224f2da80fd8439a80408b99c76
+
 Package: cn.octoforce.squidextender
 Name: 乌贼键盘无根（免授权）
 Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
@@ -14,6 +32,24 @@ Size: 2622880
 MD5sum: 7ca41b9ed2bfd28244370123e7715d74
 SHA1: 08559165f974dcf18a3937f1666304bf46e4bd51
 SHA256: f6b06e27ff949187f6f9e8cd3116d8070e9b3599928eb4d3f7c46a937047bb70
+
+Package: cn.octoforce.squidgesturepro.roothide
+Name: 乌贼手势隐根（免授权）
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
+Maintainer: 刀哥
+Author: 刀哥
+Section: Tweaks
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Installed-Size: 6762
+Filename: debs/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb
+Size: 1795552
+MD5sum: d5aa6c14bc9e9e9e40351512978fe783
+SHA1: 7e2767c2b2a4f53fd73b369d2b5ac38fc6880be1
+SHA256: 31659c2ed80da8a1cf9deca87a0443789673845d7d49b8b332a5cc8c049c5b06
 
 Package: cn.octoforce.squidgesturepro
 Name: 乌贼手势无根（免授权）
