@@ -14,6 +14,19 @@ DEBS = os.path.join(ROOT, 'debs')
 REPO_NAME = 'personal-jb-repo'
 REPO_LABEL = '自用插件源'
 
+# 字段名大小写规范化（兼容部分作者写的小写 control，如 冰蓝 dynamicfx）
+CANON = {
+    'package': 'Package', 'version': 'Version', 'name': 'Name',
+    'architecture': 'Architecture', 'depends': 'Depends',
+    'description': 'Description', 'author': 'Author', 'maintainer': 'Maintainer',
+    'section': 'Section', 'icon': 'Icon', 'sileodepiction': 'SileoDepiction',
+    'sileo': 'Sileo', 'depiction': 'Depiction', 'conflicts': 'Conflicts',
+    'provides': 'Provides', 'replaces': 'Replaces', 'priority': 'Priority',
+    'installed-size': 'Installed-Size', 'sponsor': 'Sponsor', 'dev': 'Dev',
+    'tag': 'Tag', 'essential': 'Essential', 'filename': 'Filename',
+    'size': 'Size', 'md5sum': 'MD5sum', 'sha1': 'SHA1', 'sha256': 'SHA256',
+}
+
 def parse_ar(path):
     """解析 .deb (ar 归档)，返回 member 名 -> 字节 的字典"""
     data = open(path, 'rb').read()
@@ -52,7 +65,7 @@ def read_control(deb_path):
     return None
 
 def parse_control_fields(text):
-    """把 control 文本解析为字段字典（保留多行 Description）"""
+    """把 control 文本解析为字段字典（保留多行 Description），字段名统一规范大小写"""
     fields, cur = {}, None
     for line in text.splitlines():
         if line[:1] in (' ', '\t'):
@@ -63,6 +76,7 @@ def parse_control_fields(text):
             k, _, v = line.partition(':')
             k = k.strip()
             if k:
+                k = CANON.get(k, k)
                 fields[k] = v.strip()
                 cur = k
     return fields
