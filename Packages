@@ -128,6 +128,25 @@ MD5sum: e7807c63d35c8436fd53168ceb8558bd
 SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
 SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
 
+Package: com.Axs.xmzs
+Name: 熊猫助手（免授权）
+Description: 微信功能扩展
+Section: 微信插件
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: xmmm
+Author: xmmm
+Architecture: iphoneos-arm64
+Version: 1.1-4C
+Installed-Size: 3728
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
+Filename: debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb
+Size: 1091608
+MD5sum: 8349817d3f3e4a0d935c64405f66b67c
+SHA1: bcc6b9659cde00cbe4eaa8b058ddbecebab51f81
+SHA256: ec9fda06272a8af6478dfdc3db90ee05e4a34fc664b5ae89b013e5867fcc6a19
+
 Package: com.axs.ios16dao.keygen
 Name: A狗动态岛激活码生成器
 Version: 1.0.0
@@ -413,6 +432,23 @@ Size: 2894200
 MD5sum: c980747340cf89f3d04cead8f1d00d4e
 SHA1: 850cda4f2c6fadd0aea42e7f80d51991d53f5d69
 SHA256: 429871b1f4d7eed42b38c5e5ea3efc2089dca7d29a1829bdff097702ae4fd598
+
+Package: com.susu.sumusicplayercc
+Section: 控制中心
+Installed-Size: 628
+Maintainer: 苏苏
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Depends: com.opa334.ccsupport
+Description: 控制中心播放器视频背景美化
+Name: SuMusicPlayerCC
+Icon: https://www.susubaby.top/images/sumusicplayercc.png
+Author: 苏苏
+Filename: debs/com.susu.sumusicplayercc_1.0.1_iphoneos-arm64.deb
+Size: 86752
+MD5sum: 139d5083cb7adb124547e4b89f64f7bf
+SHA1: 75cae2282ffc97fbd7b96deadd8f7714932e1b81
+SHA256: ba67757d51a1b7d73e30db031e9bb6e19506eaa1fb4b1770ff35583c390d6cf9
 
 Package: com.tencent.themebox
 Name: 主题盒子（免授权）
