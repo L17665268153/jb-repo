@@ -384,19 +384,22 @@ SHA256: 200050c21e097f9dd89cd5955449bc7c868bd4455a554c2d1e5049fc1de2edd5
 
 Package: com.nx.stheno
 Name: Stheno奥利奥分屏
-Description: Medusa,Jump Whenever。
+Description: Stheno分屏正式版（关闭诊断文件日志） 下拉分屏点击全屏 只支持原生横幅通知。原插件含激活码授权验证，仅自用。
 Maintainer: Crassna
 Author: Crassna
 Section: 分屏插件
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Architecture: iphoneos-arm64e
-Version: 0
-Installed-Size: 2788
-Filename: debs/com.nx.stheno_0_iphoneos-arm64e.deb
-Size: 527968
-MD5sum: 929f4e40f189ac4bd843eb2678e2df35
-SHA1: 44968753c4895f965556e8bcb200ab5ba182157a
-SHA256: 0953614e1ecb5eede4a27147c1204f66e77c15b26424593a138705bea2a8b175
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0)
+Provides: com.h.sthenokb (= 1.1.2-59), com.nx.stheno.fix (= 0.1.23-1~defaultscache1)
+Conflicts: com.h.sthenokb, com.nx.stheno.splitlastownerprobe, com.nx.stheno.splitcycleownerprobe, com.nx.stheno.renderresourceprobe, com.nx.stheno.surfaceownerprobe, com.nx.stheno.splittransitionownerprobe, com.nx.stheno.splitcontextunbindfix, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix
+Replaces: com.h.sthenokb, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix
+Architecture: iphoneos-arm64
+Version: 0.1.23-1
+Installed-Size: 2988
+Filename: debs/com.nx.stheno_0.1.23-1_iphoneos-arm64.deb
+Size: 551092
+MD5sum: 7ed596f3d35ffb732ee455c276576311
+SHA1: 2bb6756f159d8eb0a365e0ad136082cf3e9f6d17
+SHA256: 9c992726b747363ecb057522dcb6de9f54bcdb0a6471f4f59ec390b59c3ed50a
 
 Package: com.qimiao.WCRefine
 Name: WCRefine内部2.1-5beta1（免授权）
