@@ -495,6 +495,21 @@ MD5sum: 8037c65543a314beb5deee65279592eb
 SHA1: 68b88e147b7d79d6cb6d5a50c308889456198176
 SHA256: d71ebe6337945d13a2f0630684e8c98947088daedf6ab4d34a467629954fd8c6
 
+Package: com.wcliquidglass.free
+Name: 58微信液态玻璃（免授权）
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风格美化，rootless 专用。内置本地公钥验签，无联网授权，仅自用。
+Maintainer: TLzypjy
+Author: TLzypjy
+Section: 微信插件
+Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Filename: debs/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb
+Size: 731228
+MD5sum: 65ca2e958bb6ff1f440839fe48634dfa
+SHA1: f35a2baf73b052d224984cf929a668c6c2a3de24
+SHA256: f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281
+
 Package: com.wcneo.free
 Name: WeChatNeo（免授权）
 Version: 1.0.8-3
