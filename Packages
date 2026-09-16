@@ -330,6 +330,22 @@ MD5sum: 5faa5814a11e5740dc7fceaf25255302
 SHA1: 4bd1f17500d305e7e3876479cc580084b9a15cac
 SHA256: bba93725b26ed75f6f88c9bc45d1cf6b16c9c7bbe836b85cd2ee100c9bae3ff6
 
+Package: com.nx.stheno
+Name: Stheno奥利奥分屏
+Description: Medusa,Jump Whenever。
+Maintainer: Crassna
+Author: Crassna
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Architecture: iphoneos-arm64e
+Version: 0
+Installed-Size: 2788
+Filename: debs/com.nx.stheno_0_iphoneos-arm64e.deb
+Size: 527962
+MD5sum: 275f3069664370ebfd6141f1ee671b56
+SHA1: ba481506fb2b0060367b06ab8624be3d2e878a2a
+SHA256: 16fec98b3a07caf5aed192148e88dae7dd15cb0ef53e95d4ca85315b83266a6c
+
 Package: com.qimiao.WCRefine
 Name: WCRefine内部2.1-5beta1（免授权）
 Version: 2.1-5beta1
