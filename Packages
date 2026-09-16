@@ -320,18 +320,18 @@ SHA256: 410a0cf68816de6fb34d809613a735dd4f621db491ceeda5143a53af6129468c
 
 Package: com.duo.themelab.free
 Name: 000ThemeLab（免授权）
-Version: 1.0.0
+Version: 1.7.4
 Architecture: iphoneos-arm64
 Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit
 Description: 000ThemeLab 主题实验室（免授权）。微信主题 + 锁屏/桌面美化。原插件含联网授权与设备信息上报，破解版仅自用。
 Author: personal
 Maintainer: personal
 Section: 微信插件
-Filename: debs/com.duo.themelab.free_1.0.0_iphoneos-arm64.deb
-Size: 1401060
-MD5sum: 5eb592060d5ed6f822ef47e71d0d6ae4
-SHA1: 673a43c4a5237ff19aecb405252aaf7858ff1bc8
-SHA256: 02df75621569b684c67f926fa437e16bae4b51cc4d0d2a452d4e3ed2517cf64e
+Filename: debs/com.duo.themelab.free_1.7.4_iphoneos-arm64.deb
+Size: 1401126
+MD5sum: 830513cfa656b49f93874fdccb3310d9
+SHA1: 453165244c59b47ac0d9a5334ca96ea1cdae13bd
+SHA256: a8b5526511de4017c748221cd0b81daab2ad9a2bc595e78a664c456872a2adf9
 
 Package: com.go.mango
 Name: 芒果分屏1.0-Beta7-6（免授权）
