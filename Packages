@@ -423,8 +423,46 @@ MD5sum: a1092b642c03e2faa7bd1da5ba3f12d4
 SHA1: 65c36055d6a7076cd22a8d065935aa4758b0b073
 SHA256: 9b24b012947e8f7a5d3a4677783b7fb38ffc476a100acbc0b4db6e2ca5efd2d8
 
+Package: com.wkk.copylogx
+Name: CopylogX（wkk）
+Description: cool！
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1828
+Filename: debs/com.wkk.copylogx_1.1-9_iphoneos-arm64.deb
+Size: 273130
+MD5sum: 0243897e52becaebce605066cd71ef77
+SHA1: 78d0fc285be0b0e46304462f58a7ca2df4d9531b
+SHA256: b20004c62068fbd99206f9453cd16777cbcf7b80b241d418336cfa59ad986afc
+
+Package: com.wkk.installedpackages
+Name: InstalledPackages（wkk）
+Depends: firmware (>= 15.0)
+Priority: optional
+Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
+ 安装后会在桌面显示应用图标。
+Maintainer: wkk
+Author: wkk
+Section: Applications
+Homepage: https://github.com/roothide/Sileo-roothide
+Tag: purpose::application, compatible_min::ios15
+Icon: file:///Applications/InstalledPackages.app/icon_large.png
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Installed-Size: 912
+Filename: debs/com.wkk.installedpackages_1.0-1_iphoneos-arm64.deb
+Size: 431926
+MD5sum: eed213e6e314876717d6547025d018f6
+SHA1: 095eb7168505db92615bdc751c41e490357ea730
+SHA256: 7bb6a7a8c0c3abbbc4eca9b623ff9e6554e44601a52c1d73ad9820403c73c97c
+
 Package: com.wkk.keyboardx
-Name: keyboardX（免授权）
+Name: keyboardX（wkk）
 Description: 键盘调整。
 Maintainer: wkk
 Author: wkk
@@ -435,10 +473,78 @@ Architecture: iphoneos-arm64
 Version: 1.0-6
 Installed-Size: 516
 Filename: debs/com.wkk.keyboardx_1.0-6_iphoneos-arm64.deb
-Size: 64144
-MD5sum: 9bc84a17d0fb4355909e1069f0904ebf
-SHA1: 7ae06f6406c0ee05da7e4b6f3a5bf421d93e0df4
-SHA256: 65b479e9b2caee1c75facd56bac95eea29905c0eaafdf567ae08724b4ea108ee
+Size: 64136
+MD5sum: b2b2386fae3e895afebf35a568c3f1b9
+SHA1: f57bd6da440cfd69abfbe14aa125696a177f9d5a
+SHA256: 31a7e92f16bd0793f6afea47da1932a69e24f3661bab94a3abeb354df1ec86f6
+
+Package: com.wkk.keyboardx
+Name: KeyboardX（wkk）
+Description: 键盘调整。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Installed-Size: 616
+Filename: debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64.deb
+Size: 80050
+MD5sum: 856f31ad0dccf6a72badf4aa8ae97b5b
+SHA1: ca2af4436045a60fda9107ddf6c5b47b741e5890
+SHA256: 087b4162af871046ddf68e20e03e8f30e27eda53108d00648490444b7a083af9
+
+Package: com.wkk.onestepx
+Name: OneStepX（wkk）
+Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 17.0)
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Architecture: iphoneos-arm64e
+Version: 1.1-0
+Installed-Size: 516
+Filename: debs/com.wkk.onestepx_1.1-0_iphoneos-arm64e.deb
+Size: 111814
+MD5sum: b7ab4a0d6ee87349a83b8d8a70ba03e3
+SHA1: 932d7a92132b8b0322aba794b84f14e2abc9337b
+SHA256: 301ed00db10a52d571ef6f022fb6fee09111e13dade704d9e9ef6aeb53e2610c
+
+Package: com.wkk.systembox
+Name: SystemX（wkk）
+Description: cool
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.4-7
+Installed-Size: 1572
+Filename: debs/com.wkk.systembox_1.4-7_iphoneos-arm64.deb
+Size: 316324
+MD5sum: fe5656fe57118f479539625fb3749d7b
+SHA1: 459cd5e7bfe0641ff443c5237dbd7175afee6604
+SHA256: b6fcd8983d3b3872c42f4e698d3e5547f435f2d2b20af4aee60f935f165ce172
+
+Package: com.wkk.wechatx
+Name: WeChatX（wkk）
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Maintainer: wkk
+Author: wkk
+Section: 微信插件
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3-2
+Installed-Size: 8376
+Filename: debs/com.wkk.wechatx_2.3-2_iphoneos-arm64.deb
+Size: 2974286
+MD5sum: 730d38bfc5beef26b708b5e7d4921b44
+SHA1: 08398883b4b85476e041c33d6209336cec7df53c
+SHA256: bad828aac1303d8a376657c3727f1c53831eb19f86ed1970cff38cc87d5dcdd4
 
 Package: com.ylr.wcfloatsplit
 Name: WeChatOrbit（免授权）
