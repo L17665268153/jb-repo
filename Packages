@@ -335,6 +335,23 @@ MD5sum: 476311bce98b1e595853fde7cf73cc31
 SHA1: ed2c08e17a4d1a82cd73869b6c62ff3c699e60b1
 SHA256: 410a0cf68816de6fb34d809613a735dd4f621db491ceeda5143a53af6129468c
 
+Package: com.duo.themelab.free
+Name: 000ThemeLab（免授权）
+Version: 1.7.4-1
+Architecture: iphoneos-arm64e
+Description: 000ThemeLab 主题实验室（免授权）。微信主题 + 锁屏/桌面美化。原插件含联网授权与设备信息上报，破解版仅自用。注：Swift 编译，隐根环境需 Swift 运行时支持。
+Maintainer: personal
+Author: personal
+Section: 微信插件
+Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Pre-Depends: rootless-compat (>= 0.9)
+Installed-Size: 4614
+Filename: debs/com.duo.themelab.free_1.7.4-1_iphoneos-arm64e.deb
+Size: 1401270
+MD5sum: bf4faf29693054cbe209f6a2813d328a
+SHA1: 22710faa2fa0d4ec13358b90b60b5d4dd57a41e7
+SHA256: cd42fa6de32f04417e8aea1751189fccbd25188bfd77294945aee235d47cfe9b
+
 Package: com.go.mango
 Name: 芒果分屏1.0-Beta7-6（免授权）
 Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
