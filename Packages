@@ -345,10 +345,10 @@ Author: personal
 Maintainer: personal
 Section: 微信插件
 Filename: debs/com.duo.themelab.free_1.7.4_iphoneos-arm64.deb
-Size: 1401126
-MD5sum: 830513cfa656b49f93874fdccb3310d9
-SHA1: 453165244c59b47ac0d9a5334ca96ea1cdae13bd
-SHA256: a8b5526511de4017c748221cd0b81daab2ad9a2bc595e78a664c456872a2adf9
+Size: 1401146
+MD5sum: cc9ff9e66e22ac6a4b6266a66938a143
+SHA1: 67c7992f6bf4202bbd3e36e63a5551a73fa82f40
+SHA256: b4fe3a7cc366ff2d02a8176bff940060fe6ab4c8ee44bee490102aaba6774420
 
 Package: com.go.mango
 Name: 芒果分屏1.0-Beta7-6（免授权）
