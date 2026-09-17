@@ -133,7 +133,7 @@ Name: 全局水印Pro（免授权）
 Description: 让简单截图，拥有更多可能。
 Maintainer: 冰蓝
 Depends: mobilesubstrate, preferenceloader
-Section: Tweaks
+Section: 系统美化
 Author: 冰蓝
 Architecture: iphoneos-arm64
 Version: 4.1.6
@@ -141,10 +141,10 @@ Installed-Size: 2496
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 Filename: debs/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb
-Size: 336972
-MD5sum: 7a2be4cbccf576c025e5f09c4cdbc791
-SHA1: 1a924ed21b5c601723bb1304c4752efc1564f373
-SHA256: c1b38ba922ba3aa02e063312e8371434d38da2a242b022f0e799162aea14feb4
+Size: 336980
+MD5sum: 165846e289de27614390df65340d308f
+SHA1: 016ab93d30fbc01d80acfbbe2df8f182d82f44c4
+SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
 
 Package: com.Axs.xmzs
 Name: 熊猫助手（免授权）
@@ -228,7 +228,7 @@ SHA1: 33a15f3e633e911496b40eff9d0639fc3cc445f0
 SHA256: 83bf4d4f7c9e5ac5e9f4d31d4de1e08cd8f9b13b5f7c4f5c2ec3699bc0e3a1a5
 
 Package: com.axs.snapper3tag
-Section: Axs-Tweaks
+Section: 工具
 Installed-Size: 1052
 Maintainer: Axs <qiaozhini000@163.com>
 Architecture: iphoneos-arm64e
@@ -281,10 +281,10 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 Filename: debs/com.axs.snapper3tag_5.2.0-326_iphoneos-arm64e.deb
-Size: 607204
-MD5sum: 713315a3e5dacadd7f8de13e7ca8c949
-SHA1: a8bd9b43e0e07e2c247ad3ce50681dac3c8a8e7d
-SHA256: 181533cf627a1b0fec97bc86bdb06060902f0bee52884910efcf21210a26d8ad
+Size: 607086
+MD5sum: d9f7044e76071e2c3ab954a112b32d4f
+SHA1: f597c6068b2d02e963b73f3acf94f09ea43b0590
+SHA256: 9efea4b6265d8bf828ca1c7ead86c62dfb8636ef2f0e8c951a6294da178863ab
 
 Package: com.axs.switchicon
 Name: A狗液态开关（免授权）
@@ -555,7 +555,7 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
 Author: kanuo
 Maintainer: kanuo
 Dev: kanuo
-Section: Tweaks
+Section: 工具
 Depends: firmware (>= 15.0), mobilesubstrate
 Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
@@ -563,10 +563,10 @@ Architecture: iphoneos-arm64e
 Version: 3.6.5
 Installed-Size: 812
 Filename: debs/com.snapbackup_3.6.5_iphoneos-arm64e.deb
-Size: 1100976
-MD5sum: d1b136eb318e0e79d78fa6c6fd0886c0
-SHA1: 42b43da21167fdcdd9b15a63e3ea09097baa08be
-SHA256: a5fcb2321bbde5d017cd52974d96305612d68be86d6cf8d58efa7801826f93d3
+Size: 1100928
+MD5sum: 145bbff8491fe3dc444a95a469d73f33
+SHA1: 5bcd16b0e7113ad4de320ac5aa17f7fbff453048
+SHA256: e33edf2f4c3f1faaeacff97ef31ceb11a9af0f1aa70f4725aa6b2af2e177cb36
 
 Package: com.susu.sumusicplayercc
 Section: 控制中心
@@ -591,16 +591,16 @@ Description: ScreenCore 分屏工具（免授权）。分屏而已。
 Maintainer: SuSu
 Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Section: Tweaks
+Section: 分屏插件
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 1.1.7
 Installed-Size: 2828
 Filename: debs/com.susudear.screencore_1.1.7_iphoneos-arm64.deb
-Size: 442712
-MD5sum: ef94011654c56261bf6050e925c753fa
-SHA1: 4d6f27c9fa00eb59f8fdc201486d1e57a0015d5b
-SHA256: b13d4100f94bb57b0f7690cc4eedd10f63df364ca644190f34e101f0dcd843af
+Size: 442730
+MD5sum: a84aa6cc83ef4b4337c056f2cd32cf92
+SHA1: c6d5ac3d851756aa45c25efa68de469ce9c1894f
+SHA256: 05226460604c8f25b65e83cb77ca0b555f8b24b3d165cf5e677e774642309247
 
 Package: com.tencent.themebox
 Name: 主题盒子（免授权）
@@ -622,7 +622,7 @@ Name: Kayoko
 Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
 Maintainer: Tsangbaby
 Author: Tsangbaby
-Section: Tweaks
+Section: 工具
 Icon: https://github.com/Tsangbaby/Kayoko/blob/main/Icon/kayoko.png
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
@@ -631,10 +631,10 @@ Architecture: iphoneos-arm64e
 Version: 4.8
 Installed-Size: 3156
 Filename: debs/com.tsangbaby.kayoko_4.8_iphoneos-arm64e.deb
-Size: 670838
-MD5sum: bba8ab22739f5d1031de740b7c2ba44a
-SHA1: a8cb471ebb53d20f02981178435502146099d9eb
-SHA256: 07963d8a10b8537b9e686747ac31e6f7ddda3108a6b8dc6f54fd8dfa8d539fb8
+Size: 670848
+MD5sum: b5b42792fdb59a7eb302d62b0f5fd100
+SHA1: 7bb6b4bf05e30816c02b57e8ff980905fbf8a95a
+SHA256: 5369546bbdab0f4ed2e3eb7e03bd828fed26bc9da052fd8cd06b52753477f744
 
 Package: com.wcglass.free
 Name: WCGlass（免授权）
