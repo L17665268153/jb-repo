@@ -29,10 +29,10 @@ Architecture: iphoneos-arm64
 Version: 1.9.0-1
 Installed-Size: 6868
 Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb
-Size: 1863188
-MD5sum: ca1e9f26ca525a514a711231f4de888b
-SHA1: de8e03d65cb5da9c432647bc503203ce0af4c1ae
-SHA256: 3d3173dd950fb1cd66c5f3844ed6aad13ec4760ec8ef0fe931cde0681e86e74a
+Size: 1852370
+MD5sum: 3cf76dfeda01b85b41e5cbd71c8709f7
+SHA1: 4f4b0ce1a28911491b0f03ffa9e9fe2e5b89cb7e
+SHA256: 3062b9127eb34aa74349a4176f2f009411df0b5f5241e127f75c0243caed01c9
 
 Package: cn.octoforce.squidextender.roothide
 Name: 乌贼键盘隐根（免授权）
@@ -487,6 +487,23 @@ Size: 86752
 MD5sum: 139d5083cb7adb124547e4b89f64f7bf
 SHA1: 75cae2282ffc97fbd7b96deadd8f7714932e1b81
 SHA256: ba67757d51a1b7d73e30db031e9bb6e19506eaa1fb4b1770ff35583c390d6cf9
+
+Package: com.susudear.screencore
+Name: ScreenCore分屏
+Description: ScreenCore 分屏工具（免授权）。分屏而已。
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Installed-Size: 2828
+Filename: debs/com.susudear.screencore_1.1.7_iphoneos-arm64.deb
+Size: 442728
+MD5sum: 1aa15caf710fc5729162ca28759dbe1b
+SHA1: 8778764f521273978853180f76ad00b97ce04dda
+SHA256: 152852a6152a7617e5eeef2e96fd2a9cc1cd3ffbe7911ea69a472f46010f8e4b
 
 Package: com.tencent.themebox
 Name: 主题盒子（免授权）
