@@ -30,10 +30,10 @@ Version: 1.9.0-1
 Installed-Size: 6868
 Pre-Depends: rootless-compat (>= 0.9)
 Filename: debs/cn.octoforce.copyvault.roothide_1.9.0-1_iphoneos-arm64e.deb
-Size: 1851820
-MD5sum: 0413182e16fa6220ea61dad86a8d5716
-SHA1: 13ce54c033d0fc04879ba7309b118ed04a6fb71c
-SHA256: 159a6e61b85f49d11076eee18a4e0453a554b4912b2e2c2811ca00df5383dd05
+Size: 1851824
+MD5sum: 0ed9eff639c6ec7ab2203ec075c81455
+SHA1: 6f33576438932805786b08dcfd97e19be6befdad
+SHA256: dd0edcf9041f7e6e7bb6d7c38d266f0f4ff2fe836cb1dbd152e44fae1a60e781
 
 Package: cn.octoforce.squidextender.roothide
 Name: 乌贼键盘隐根（免授权）
