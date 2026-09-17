@@ -16,24 +16,6 @@ MD5sum: 76291513efba709c4110734c7cd15f81
 SHA1: e0c5fe5a15f117f0966eab401c447e9f92d3760d
 SHA256: 9b3a9b38b0f4bcd131d704facfe19acfa84a802a1e2baa6ad3679507ff025d01
 
-Package: cn.octoforce.copyvault
-Name: 乌贼剪贴板（免授权）
-Description: 乌贼剪贴板（免授权）。剪贴板管理增强，已内嵌离线授权破解，无需激活码。
-Maintainer: SquidForce, Backup
-Author: SquidForce, Backup
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-Architecture: iphoneos-arm64e
-Version: 1.9.0-1
-Installed-Size: 6868
-Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64e.deb
-Size: 1855152
-MD5sum: 7486c540d2a65b969adc8cb3db13186b
-SHA1: f3e72f463e70137aec419bf97d4a7bcc2deb30b6
-SHA256: e342fc31876835044eecc16d4250102cf1ee17aaba1f395c7214afc08ac67bf5
-
 Package: cn.octoforce.squidextender.roothide
 Name: 乌贼键盘隐根（免授权）
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
