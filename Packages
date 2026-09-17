@@ -129,22 +129,22 @@ SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
 SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
 
 Package: com.Axs.qjsy
-Name: 全局水印Pro
+Name: 全局水印Pro（免授权）
 Description: 让简单截图，拥有更多可能。
 Maintainer: 冰蓝
 Depends: mobilesubstrate, preferenceloader
 Section: Tweaks
 Author: 冰蓝
 Architecture: iphoneos-arm64
-Version: 4.1.6-end
+Version: 4.1.6
 Installed-Size: 2496
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
-Filename: debs/com.Axs.qjsy_4.1.6-end_iphoneos-arm64.deb
+Filename: debs/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb
 Size: 336972
-MD5sum: 5c2dcf8897397584a70429899235348b
-SHA1: 31a0e16e29867856c33c34b79eb9d60dc93aa870
-SHA256: 997ddca7feea124e2d9571ad45acb392bc5bb7aa5c7b4d5108b8797a240b1200
+MD5sum: 7a2be4cbccf576c025e5f09c4cdbc791
+SHA1: 1a924ed21b5c601723bb1304c4752efc1564f373
+SHA256: c1b38ba922ba3aa02e063312e8371434d38da2a242b022f0e799162aea14feb4
 
 Package: com.Axs.xmzs
 Name: 熊猫助手（免授权）
