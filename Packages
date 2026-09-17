@@ -25,14 +25,14 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.squidforce.copyvault
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.9.0-1
 Installed-Size: 6868
-Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb
-Size: 1852370
-MD5sum: 3cf76dfeda01b85b41e5cbd71c8709f7
-SHA1: 4f4b0ce1a28911491b0f03ffa9e9fe2e5b89cb7e
-SHA256: 3062b9127eb34aa74349a4176f2f009411df0b5f5241e127f75c0243caed01c9
+Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64e.deb
+Size: 1853184
+MD5sum: 97db6f50d6845b2debb19d4a2c85fd3c
+SHA1: 9767b4e7ffa540d676721d45e579270fe13b0374
+SHA256: dd9f6dbcf43ab9e8184faeef9089c867eb6ce60ae38ed8607714476a316d4bdf
 
 Package: cn.octoforce.squidextender.roothide
 Name: 乌贼键盘隐根（免授权）
