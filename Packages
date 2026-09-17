@@ -29,10 +29,10 @@ Architecture: iphoneos-arm64e
 Version: 1.9.0-1
 Installed-Size: 6868
 Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64e.deb
-Size: 1854984
-MD5sum: ed5b72134f265f0b7969fa1aa9f6c9d1
-SHA1: e79a6f9f2bb3264c529ae041a4faabbebc6cfc45
-SHA256: 85eafce1243d56a5eb8d8ab02a5e748a8bfa05b832ce56e8da1dce967b9aa056
+Size: 1852910
+MD5sum: ae8117c32e2db2dfdc77ef98d6861ae6
+SHA1: a7b447c87a14cb7ff7dedb5d59057636923b9b7d
+SHA256: af2abb0615365a29bfee29e73d4a7117d0d15222caeddbd942c31a69bacf4068
 
 Package: cn.octoforce.squidextender.roothide
 Name: 乌贼键盘隐根（免授权）
@@ -500,10 +500,10 @@ Architecture: iphoneos-arm64
 Version: 1.1.7
 Installed-Size: 2828
 Filename: debs/com.susudear.screencore_1.1.7_iphoneos-arm64.deb
-Size: 441254
-MD5sum: bb230ddb46672cbb762e876c437bc59a
-SHA1: 5fae9c49b9b675948a45118f2859ccbf2eff1e49
-SHA256: e6a2f16264ebc3d39767eca281b464da05cd83c6b5181766abb8d8d6beb1cca0
+Size: 441294
+MD5sum: c4733c1038d505c918fccf4ab3d922da
+SHA1: 98cfef59bb20b9787e038e8dc19d5dae2a5f7a36
+SHA256: 7f1ec09ffed0e7af61575f3d5b69da68e3d0486c61f0fbecabebf80a0a81234a
 
 Package: com.tencent.themebox
 Name: 主题盒子（免授权）
