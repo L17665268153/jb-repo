@@ -504,6 +504,21 @@ SHA256: fc01a6b7817af066aae2c30339933710aabc652c715e6f82013688177ef83ab6
 
 Package: com.liquidui.liquidui
 Name: LiquidUI（免授权）
+Version: 1.78
+Architecture: iphoneos-arm64e
+Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。旧版本，供降级使用。
+Maintainer: TLzypjy
+Author: TLzypjy
+Section: 微信插件
+Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Filename: debs/com.liquidui.liquidui_1.78_iphoneos-arm64e.deb
+Size: 15816600
+MD5sum: 227648cbb27f60782a8b4e61894eda67
+SHA1: f223b08864ff3cf890127d0248d9ad5d2eed8364
+SHA256: c2dd6878b49b60eb767cdeb8f17307b7a3d549665f95341fbfdaeed34320b61d
+
+Package: com.liquidui.liquidui
+Name: LiquidUI（免授权）
 Version: 1.80
 Architecture: iphoneos-arm64e
 Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。
