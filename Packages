@@ -417,6 +417,24 @@ MD5sum: 3557e6933f0a85ff3d11e2e1b58f8ed2
 SHA1: fdad90089ef2051c66aa62cfa3df5fcf8548400b
 SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
 
+Package: com.bvn.squidforcecrack.rl
+Name: SquidForce VIP
+Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
+Maintainer: BVN
+Author: BVN
+Section: 工具
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Installed-Size: 328
+Icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
+Size: 36936
+MD5sum: 3a817babf0231da296be4d9ae76b6573
+SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
+SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
+
 Package: com.charlieleung.liquidify.roothide
 Name: 88液态玻璃隐根版（免授权）
 Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
