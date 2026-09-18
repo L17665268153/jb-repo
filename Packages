@@ -503,19 +503,19 @@ SHA1: 713070f2b29e4b6adc89a16694303f399b260ea2
 SHA256: fc01a6b7817af066aae2c30339933710aabc652c715e6f82013688177ef83ab6
 
 Package: com.liquidui.liquidui
-Name: 微信液态玻璃美化（免授权）
-Version: 1.78
-Architecture: iphoneos-arm
-Description: 微信液态玻璃美化（免授权）。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。内置授权验签与部分联网功能，仅自用。
+Name: LiquidUI（免授权）
+Version: 1.80
+Architecture: iphoneos-arm64e
+Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。
 Maintainer: TLzypjy
 Author: TLzypjy
 Section: 微信插件
 Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
-Filename: debs/com.liquidui.liquidui_1.78_iphoneos-arm.deb
-Size: 15821794
-MD5sum: 8d5db29ce3ce6d6988e1b156bc89650d
-SHA1: 7262ce405594fdd238fb94a6124f70bdcbf09f6d
-SHA256: 200050c21e097f9dd89cd5955449bc7c868bd4455a554c2d1e5049fc1de2edd5
+Filename: debs/com.liquidui.liquidui_1.80_iphoneos-arm64e.deb
+Size: 16592608
+MD5sum: c25cdb8e82604d138f7e345b69fc71dc
+SHA1: 385c397f22010d5bd70dbd8d0d4fe9cc6c6426ed
+SHA256: 1aa428f058226b9ec46fdf31fa9b6d8e5f28bd53d91d22b693546d7b76bab591
 
 Package: com.nx.stheno
 Name: Stheno奥利奥分屏
