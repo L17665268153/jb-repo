@@ -389,15 +389,15 @@ Section: 工具
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
 Conflicts: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
-Version: 1.9.0k-1
+Version: 1.9.0k-2
 Installed-Size: 6220
 Icon: https://huayuarc.github.io/icon/CopyVault@2x.png
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.bvn.copyvault.rl_1.9.0k-1_iphoneos-arm64e.deb
-Size: 1641412
-MD5sum: 9586a3e6895cf1dab53950140f92be3e
-SHA1: f7db23ca6d145507e7d0dad4dd841b589e047969
-SHA256: b9c05816e9f57996a695748b5d02488d9a2b9cb29fe9dbd8842e6694ef4507ea
+Filename: debs/com.bvn.copyvault.rl_1.9.0k-2_iphoneos-arm64e.deb
+Size: 1641904
+MD5sum: 4d2261fa503bda3542c4488986bc0740
+SHA1: 8fbfb480a8d4db3ab0fcec770bdae53544cbd494
+SHA256: 0e9c932ef4ba8a5c4ae0f3f2d123db1d38f3912ac76cbd5cdf42f1c70be75bc8
 
 Package: com.charlieleung.liquidify.roothide
 Name: 88液态玻璃隐根版（免授权）
