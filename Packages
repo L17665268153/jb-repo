@@ -649,14 +649,14 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Section: 分屏插件
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Architecture: iphoneos-arm64
-Version: 1.1.7
-Installed-Size: 2828
-Filename: debs/com.susudear.screencore_1.1.7_iphoneos-arm64.deb
-Size: 442730
-MD5sum: a84aa6cc83ef4b4337c056f2cd32cf92
-SHA1: c6d5ac3d851756aa45c25efa68de469ce9c1894f
-SHA256: 05226460604c8f25b65e83cb77ca0b555f8b24b3d165cf5e677e774642309247
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 2836
+Filename: debs/com.susudear.screencore_1.1.8_iphoneos-arm64e.deb
+Size: 440972
+MD5sum: 7a4dfacf6651b93c3d128f3dafb7dde6
+SHA1: 73f9d055e59182b305ded260340af5ccff69cbfb
+SHA256: 01333dcf8a0f11f7eca0e653e4e75e11350342e88ef080b0a1f81e929339a4bd
 
 Package: com.tencent.themebox
 Name: 主题盒子（免授权）
