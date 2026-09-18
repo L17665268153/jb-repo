@@ -379,26 +379,6 @@ MD5sum: e5bcd8b2cd7153c4d411830af5c6af91
 SHA1: 2be47b4876264b709c991b891d6e225afbda6eb1
 SHA256: bf92c950379c32a5b7589210b6f187173efcfd37473a59e724974eb0a05d3880
 
-Package: com.bvn.copyvault.rl
-Name: 乌贼剪贴板隐根版（免授权）
-Description: CopyVault is a modern, powerful and easy-to-use pasteboard jailbreak tweak, works on both iphone and ipad!
- * CopyVault 是一款现代、强大且易用的剪贴板越狱插件，同时支持 iPhone 和 iPad！
-Maintainer: SquidForce, Backup
-Author: SquidForce, Backup
-Section: 工具
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
-Conflicts: com.squidforce.copyvault
-Architecture: iphoneos-arm64e
-Version: 1.9.0k-2
-Installed-Size: 6220
-Icon: https://huayuarc.github.io/icon/CopyVault@2x.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.bvn.copyvault.rl_1.9.0k-2_iphoneos-arm64e.deb
-Size: 1641904
-MD5sum: 4d2261fa503bda3542c4488986bc0740
-SHA1: 8fbfb480a8d4db3ab0fcec770bdae53544cbd494
-SHA256: 0e9c932ef4ba8a5c4ae0f3f2d123db1d38f3912ac76cbd5cdf42f1c70be75bc8
-
 Package: com.charlieleung.liquidify.roothide
 Name: 88液态玻璃隐根版（免授权）
 Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
