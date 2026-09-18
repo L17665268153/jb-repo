@@ -674,6 +674,22 @@ MD5sum: b5b42792fdb59a7eb302d62b0f5fd100
 SHA1: 7bb6b4bf05e30816c02b57e8ff980905fbf8a95a
 SHA256: 5369546bbdab0f4ed2e3eb7e03bd828fed26bc9da052fd8cd06b52753477f744
 
+Package: com.unknown.wuzeililiang
+Name: 鱿鱼三件套通杀（免授权）
+Description: 鱿鱼三件套通杀插件
+ 下载鱿鱼三件套再安装这个插件即可本地激活授权。
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Unknown <unknown@none.local>
+Section: 工具
+Priority: optional
+Installed-Size: 822
+Filename: debs/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb
+Size: 165460
+MD5sum: 5de2a2be3032a85da4055fd3e6082472
+SHA1: de86786f7ca88cddc7841bbdd112883e66d658af
+SHA256: 30df28579a7bf6335136a24ff90845c2b2fd19292be08e7cb44cff9f24970448
+
 Package: com.wcglass.free
 Name: WCGlass（免授权）
 Version: 3.2.1
