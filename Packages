@@ -770,7 +770,7 @@ SHA256: 0a3835b016ee58d275a1a732e23e5cdaa8f97a6dd493eeec335f59ff11306a63
 
 Package: com.wkk.copylogx
 Name: CopylogX（wkk）
-Description: cool！
+Description: 一款可以拷贝文件/图片/文本/屏蔽越狱使用且支持 iOS15-17 Dopamine/relaxin 越狱的剪贴板
 Maintainer: wkk
 Author: wkk
 Section: 工具
@@ -780,10 +780,10 @@ Architecture: iphoneos-arm64
 Version: 1.1-9
 Installed-Size: 1828
 Filename: debs/com.wkk.copylogx_1.1-9_iphoneos-arm64.deb
-Size: 273136
-MD5sum: 257634ba3d61b3916d16238923d54d24
-SHA1: 44425af08268cc4eaa52e1c25e6bbbaf7ba256a9
-SHA256: a2bbc0bc150ebf3f9b88f4771f82e2c9f3cc537e72efdbdf7ba5ec204149ade7
+Size: 273144
+MD5sum: 0a3d961db75db39ce6631916fbc549c0
+SHA1: 08b0dc495ee3e9b6a5679d88d03186fc9d0ed316
+SHA256: b35c442e19048b282aae09826fc56b036e77588133bddcf463fbcd11881bd3bd
 
 Package: com.wkk.installedpackages
 Name: InstalledPackages（wkk）
